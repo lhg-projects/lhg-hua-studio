@@ -1,0 +1,5201 @@
+[
+ {
+  "kind": "class",
+  "mangled": "CGColorSpace",
+  "demangled": "CGColorSpace",
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "class",
+  "mangled": "CGContext",
+  "demangled": "CGContext",
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "class",
+  "mangled": "CVBuffer",
+  "demangled": "CVBuffer",
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "struct",
+  "mangled": "CGSize",
+  "demangled": "CGSize",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "width",
+    "type": "?"
+   },
+   {
+    "name": "height",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CMTime",
+  "demangled": "CMTime",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "value",
+    "type": "?"
+   },
+   {
+    "name": "timescale",
+    "type": "?"
+   },
+   {
+    "name": "flags",
+    "type": "?"
+   },
+   {
+    "name": "epoch",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CGPoint",
+  "demangled": "CGPoint",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "x",
+    "type": "?"
+   },
+   {
+    "name": "y",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "CGImage",
+  "demangled": "CGImage",
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "class",
+  "mangled": "CMSampleBuffer",
+  "demangled": "CMSampleBuffer",
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "struct",
+  "mangled": "CGRect",
+  "demangled": "CGRect",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "origin",
+    "type": "?"
+   },
+   {
+    "name": "size",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "URLResourceKey",
+  "demangled": "URLResourceKey",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_rawValue",
+    "type": "So8NSStringC"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "CFString",
+  "demangled": "CFString",
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "struct",
+  "mangled": "Name",
+  "demangled": "Name",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_rawValue",
+    "type": "So8NSStringC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "Key",
+  "demangled": "Key",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_rawValue",
+    "type": "So8NSStringC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "SCStreamFrameInfo",
+  "demangled": "SCStreamFrameInfo",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_rawValue",
+    "type": "So8NSStringC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "ReadingOptionKey",
+  "demangled": "ReadingOptionKey",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_rawValue",
+    "type": "So8NSStringC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "AVVideoCodecType",
+  "demangled": "AVVideoCodecType",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_rawValue",
+    "type": "So8NSStringC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "Preset",
+  "demangled": "Preset",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_rawValue",
+    "type": "So8NSStringC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "DeviceType",
+  "demangled": "DeviceType",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_rawValue",
+    "type": "So8NSStringC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CIContextOption",
+  "demangled": "CIContextOption",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_rawValue",
+    "type": "So8NSStringC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "PropertyKey",
+  "demangled": "PropertyKey",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_rawValue",
+    "type": "So8NSStringC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "NSDeviceDescriptionKey",
+  "demangled": "NSDeviceDescriptionKey",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_rawValue",
+    "type": "So8NSStringC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CMTimeFlags",
+  "demangled": "CMTimeFlags",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "rawValue",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "CMFormatDescription",
+  "demangled": "CMFormatDescription",
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "struct",
+  "mangled": "DocumentReadingOptionKey",
+  "demangled": "DocumentReadingOptionKey",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_rawValue",
+    "type": "So8NSStringC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "Weight",
+  "demangled": "Weight",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "rawValue",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "AudioGapFiller",
+  "demangled": "AudioGapFiller",
+  "numFields": 8,
+  "fields": [
+   {
+    "name": "stats",
+    "type": "?"
+   },
+   {
+    "name": "maxQueueSeconds",
+    "type": "Sd"
+   },
+   {
+    "name": "queue",
+    "type": "?"
+   },
+   {
+    "name": "queuedSeconds",
+    "type": "Sd"
+   },
+   {
+    "name": "backlogSeconds",
+    "type": "Sd"
+   },
+   {
+    "name": "nextPosition",
+    "type": "SdSg"
+   },
+   {
+    "name": "lastAcceptedEnd",
+    "type": "SdSg"
+   },
+   {
+    "name": "failed",
+    "type": "Sb"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "Item",
+  "demangled": "Item",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "sample",
+    "type": "?"
+   },
+   {
+    "name": "silence",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "CameraFloatController",
+  "demangled": "CameraFloatController",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "panel",
+    "type": "So7NSPanelCSg"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CameraFloatView",
+  "demangled": "CameraFloatView",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "layer",
+    "type": "So26AVCaptureVideoPreviewLayerC"
+   },
+   {
+    "name": "shape",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "PreviewLayerHostView",
+  "demangled": "PreviewLayerHostView",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "previewLayer",
+    "type": "So26AVCaptureVideoPreviewLayerC"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "CameraPreview",
+  "demangled": "CameraPreview",
+  "numFields": 6,
+  "fields": [
+   {
+    "name": "session",
+    "type": "So16AVCaptureSessionC"
+   },
+   {
+    "name": "_ready",
+    "type": "?"
+   },
+   {
+    "name": "_failure",
+    "type": "?"
+   },
+   {
+    "name": "deviceID",
+    "type": "SSSg"
+   },
+   {
+    "name": "wantsRunning",
+    "type": "Sb"
+   },
+   {
+    "name": "sessionQueue",
+    "type": "So17OS_dispatch_queueC"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "PreviewNSView",
+  "demangled": "PreviewNSView",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "previewLayer",
+    "type": "So26AVCaptureVideoPreviewLayerC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CameraPreviewView",
+  "demangled": "CameraPreviewView",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "session",
+    "type": "So16AVCaptureSessionC"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "CameraRecorder",
+  "demangled": "CameraRecorder",
+  "numFields": 19,
+  "fields": [
+   {
+    "name": "session",
+    "type": "So16AVCaptureSessionCSg"
+   },
+   {
+    "name": "isRunning",
+    "type": "Sb"
+   },
+   {
+    "name": "firstPTSSeconds",
+    "type": "SdSg"
+   },
+   {
+    "name": "previewLayer",
+    "type": "So26AVCaptureVideoPreviewLayerCSg"
+   },
+   {
+    "name": "onFailure",
+    "type": "ySScSg"
+   },
+   {
+    "name": "onRecovery",
+    "type": "yycSg"
+   },
+   {
+    "name": "failureReported",
+    "type": "Sb"
+   },
+   {
+    "name": "frameWatchdog",
+    "type": "?"
+   },
+   {
+    "name": "lastWrittenHost",
+    "type": "Sd"
+   },
+   {
+    "name": "stalled",
+    "type": "Sb"
+   },
+   {
+    "name": "writtenFrames",
+    "type": "Si"
+   },
+   {
+    "name": "writeQueue",
+    "type": "So17OS_dispatch_queueC"
+   },
+   {
+    "name": "writer",
+    "type": "So13AVAssetWriterCSg"
+   },
+   {
+    "name": "writerInput",
+    "type": "So18AVAssetWriterInputCSg"
+   },
+   {
+    "name": "dataOutput",
+    "type": "So24AVCaptureVideoDataOutputCSg"
+   },
+   {
+    "name": "retimer",
+    "type": "?"
+   },
+   {
+    "name": "isPaused",
+    "type": "Sb"
+   },
+   {
+    "name": "pauseBeganHost",
+    "type": "Sd"
+   },
+   {
+    "name": "pausedTotal",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CameraError",
+  "demangled": "CameraError",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "noDevice",
+    "type": "?"
+   },
+   {
+    "name": "noPermission",
+    "type": "?"
+   },
+   {
+    "name": "addFailed",
+    "type": "?"
+   },
+   {
+    "name": "noFrames",
+    "type": "?"
+   },
+   {
+    "name": "invalidFile",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "CaptureDeviceList",
+  "demangled": "CaptureDeviceList",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "_cameras",
+    "type": "?"
+   },
+   {
+    "name": "_mics",
+    "type": "?"
+   },
+   {
+    "name": "observers",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "CursorTracker",
+  "demangled": "CursorTracker",
+  "numFields": 13,
+  "fields": [
+   {
+    "name": "cursor",
+    "type": "?"
+   },
+   {
+    "name": "clicks",
+    "type": "?"
+   },
+   {
+    "name": "moveMonitor",
+    "type": "ypSg"
+   },
+   {
+    "name": "downMonitor",
+    "type": "ypSg"
+   },
+   {
+    "name": "pollTimer",
+    "type": "So7NSTimerCSg"
+   },
+   {
+    "name": "startHost",
+    "type": "Sd"
+   },
+   {
+    "name": "contentFrame",
+    "type": "?"
+   },
+   {
+    "name": "lastSampleHost",
+    "type": "Sd"
+   },
+   {
+    "name": "lastButtons",
+    "type": "Si"
+   },
+   {
+    "name": "minInterval",
+    "type": "Sd"
+   },
+   {
+    "name": "isPaused",
+    "type": "Sb"
+   },
+   {
+    "name": "pauseBeganHost",
+    "type": "Sd"
+   },
+   {
+    "name": "pausedTotal",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "GlobalHotKey",
+  "demangled": "GlobalHotKey",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "onTrigger",
+    "type": "yycSg"
+   },
+   {
+    "name": "handlerRef",
+    "type": "?"
+   },
+   {
+    "name": "registered",
+    "type": "?"
+   },
+   {
+    "name": "nextID",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "HUDController",
+  "demangled": "HUDController",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "panel",
+    "type": "So7NSPanelCSg"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "HUDView",
+  "demangled": "HUDView",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_recorder",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "HUDLabel",
+  "demangled": "HUDLabel",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "text",
+    "type": "SS"
+   },
+   {
+    "name": "size",
+    "type": "?"
+   },
+   {
+    "name": "weight",
+    "type": "?"
+   },
+   {
+    "name": "mono",
+    "type": "Sb"
+   },
+   {
+    "name": "color",
+    "type": "So7NSColorC"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "MicCapture",
+  "demangled": "MicCapture",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "session",
+    "type": "So16AVCaptureSessionCSg"
+   },
+   {
+    "name": "queue",
+    "type": "So17OS_dispatch_queueC"
+   },
+   {
+    "name": "onSample",
+    "type": "?"
+   },
+   {
+    "name": "onLevel",
+    "type": "ySfcSg"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "RecorderController",
+  "demangled": "RecorderController",
+  "numFields": 48,
+  "fields": [
+   {
+    "name": "_state",
+    "type": "?"
+   },
+   {
+    "name": "awakeActivity",
+    "type": "?"
+   },
+   {
+    "name": "_countdownRemaining",
+    "type": "?"
+   },
+   {
+    "name": "_camOn",
+    "type": "?"
+   },
+   {
+    "name": "_camShape",
+    "type": "?"
+   },
+   {
+    "name": "_micOn",
+    "type": "?"
+   },
+   {
+    "name": "_camDeviceID",
+    "type": "?"
+   },
+   {
+    "name": "_micDeviceID",
+    "type": "?"
+   },
+   {
+    "name": "_sysAudioOn",
+    "type": "?"
+   },
+   {
+    "name": "_includeMenuBar",
+    "type": "?"
+   },
+   {
+    "name": "_errorMessage",
+    "type": "?"
+   },
+   {
+    "name": "_screenPermissionMissing",
+    "type": "?"
+   },
+   {
+    "name": "_screenPermissionNeedsRelaunch",
+    "type": "?"
+   },
+   {
+    "name": "_elapsedText",
+    "type": "?"
+   },
+   {
+    "name": "_micLevel",
+    "type": "?"
+   },
+   {
+    "name": "_micSilent",
+    "type": "?"
+   },
+   {
+    "name": "_micTrackFailed",
+    "type": "?"
+   },
+   {
+    "name": "micHadInterruption",
+    "type": "Sb"
+   },
+   {
+    "name": "micHealthEpoch",
+    "type": "Sd"
+   },
+   {
+    "name": "_camTrackFailed",
+    "type": "?"
+   },
+   {
+    "name": "_displays",
+    "type": "?"
+   },
+   {
+    "name": "_windows",
+    "type": "?"
+   },
+   {
+    "name": "_source",
+    "type": "?"
+   },
+   {
+    "name": "hasPickedSourceOnce",
+    "type": "Sb"
+   },
+   {
+    "name": "appState",
+    "type": "?"
+   },
+   {
+    "name": "screenRecorder",
+    "type": "?"
+   },
+   {
+    "name": "cursorTracker",
+    "type": "?"
+   },
+   {
+    "name": "cameraRecorder",
+    "type": "?"
+   },
+   {
+    "name": "micCapture",
+    "type": "?"
+   },
+   {
+    "name": "hud",
+    "type": "?"
+   },
+   {
+    "name": "camFloat",
+    "type": "?"
+   },
+   {
+    "name": "prompter",
+    "type": "?"
+   },
+   {
+    "name": "prompterState",
+    "type": "?"
+   },
+   {
+    "name": "cameraPreview",
+    "type": "?"
+   },
+   {
+    "name": "countdownTimer",
+    "type": "So7NSTimerCSg"
+   },
+   {
+    "name": "beginTask",
+    "type": "?"
+   },
+   {
+    "name": "cameraHadInterruption",
+    "type": "Sb"
+   },
+   {
+    "name": "folder",
+    "type": "?"
+   },
+   {
+    "name": "micStarted",
+    "type": "Sb"
+   },
+   {
+    "name": "elapsedTimer",
+    "type": "So7NSTimerCSg"
+   },
+   {
+    "name": "startHost",
+    "type": "Sd"
+   },
+   {
+    "name": "pauseBegan",
+    "type": "Sd"
+   },
+   {
+    "name": "pausedTotal",
+    "type": "Sd"
+   },
+   {
+    "name": "thumbCache",
+    "type": "?"
+   },
+   {
+    "name": "appSwitches",
+    "type": "?"
+   },
+   {
+    "name": "appSwitchObserver",
+    "type": "?"
+   },
+   {
+    "name": "bag",
+    "type": "?"
+   },
+   {
+    "name": "prompterHotKeys",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "RecordSource",
+  "demangled": "RecordSource",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "display",
+    "type": "So9SCDisplayC"
+   },
+   {
+    "name": "window",
+    "type": "So8SCWindowC"
+   },
+   {
+    "name": "region",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "State",
+  "demangled": "State",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "idle",
+    "type": "?"
+   },
+   {
+    "name": "countdown",
+    "type": "?"
+   },
+   {
+    "name": "recording",
+    "type": "?"
+   },
+   {
+    "name": "paused",
+    "type": "?"
+   },
+   {
+    "name": "saving",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CapturePlan",
+  "demangled": "CapturePlan",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "filter",
+    "type": "So15SCContentFilterC"
+   },
+   {
+    "name": "sourceRect",
+    "type": "?"
+   },
+   {
+    "name": "trackFrame",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "RegionPicker",
+  "demangled": "RegionPicker",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "windows",
+    "type": "SaySo8NSWindowCG"
+   },
+   {
+    "name": "onDone",
+    "type": "?"
+   },
+   {
+    "name": "onCancel",
+    "type": "yycSg"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "RegionPickerWindow",
+  "demangled": "RegionPickerWindow",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "onEscape",
+    "type": "yycSg"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "RegionSelectView",
+  "demangled": "RegionSelectView",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "displayID",
+    "type": "?"
+   },
+   {
+    "name": "picker",
+    "type": "?"
+   },
+   {
+    "name": "dragStart",
+    "type": "?"
+   },
+   {
+    "name": "current",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "SampleRetimer",
+  "demangled": "SampleRetimer",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "firstPTS",
+    "type": "?"
+   },
+   {
+    "name": "lastOutSeconds",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "ScreenRecorder",
+  "demangled": "ScreenRecorder",
+  "numFields": 31,
+  "fields": [
+   {
+    "name": "outputURL",
+    "type": "?"
+   },
+   {
+    "name": "pixelSize",
+    "type": "?"
+   },
+   {
+    "name": "screenStartHost",
+    "type": "SdSg"
+   },
+   {
+    "name": "durationMs",
+    "type": "Sd"
+   },
+   {
+    "name": "stream",
+    "type": "So8SCStreamCSg"
+   },
+   {
+    "name": "writer",
+    "type": "So13AVAssetWriterCSg"
+   },
+   {
+    "name": "videoInput",
+    "type": "So18AVAssetWriterInputCSg"
+   },
+   {
+    "name": "micInput",
+    "type": "So18AVAssetWriterInputCSg"
+   },
+   {
+    "name": "sysInput",
+    "type": "So18AVAssetWriterInputCSg"
+   },
+   {
+    "name": "videoRetimer",
+    "type": "?"
+   },
+   {
+    "name": "micRetimer",
+    "type": "?"
+   },
+   {
+    "name": "sysRetimer",
+    "type": "?"
+   },
+   {
+    "name": "micFiller",
+    "type": "?"
+   },
+   {
+    "name": "sysFiller",
+    "type": "?"
+   },
+   {
+    "name": "micAudioStats",
+    "type": "?"
+   },
+   {
+    "name": "sysAudioStats",
+    "type": "?"
+   },
+   {
+    "name": "captureQueue",
+    "type": "So17OS_dispatch_queueC"
+   },
+   {
+    "name": "sessionStarted",
+    "type": "Sb"
+   },
+   {
+    "name": "writtenVideoFrames",
+    "type": "Si"
+   },
+   {
+    "name": "captureFailure",
+    "type": "?"
+   },
+   {
+    "name": "lastMicWrittenHost",
+    "type": "Sd"
+   },
+   {
+    "name": "isPaused",
+    "type": "Sb"
+   },
+   {
+    "name": "pauseBeganHost",
+    "type": "Sd"
+   },
+   {
+    "name": "pausedTotal",
+    "type": "Sd"
+   },
+   {
+    "name": "lastVideoPTS",
+    "type": "Sd"
+   },
+   {
+    "name": "firstVideoHost",
+    "type": "SdSg"
+   },
+   {
+    "name": "micEnabled",
+    "type": "Sb"
+   },
+   {
+    "name": "systemAudioEnabled",
+    "type": "Sb"
+   },
+   {
+    "name": "micFirstPTS",
+    "type": "SdSg"
+   },
+   {
+    "name": "sysFirstPTS",
+    "type": "SdSg"
+   },
+   {
+    "name": "firstVideoPTSSeconds",
+    "type": "SdSg"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "RecorderError",
+  "demangled": "RecorderError",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "writerFailed",
+    "type": "SS"
+   },
+   {
+    "name": "notConfigured",
+    "type": "?"
+   },
+   {
+    "name": "noFrames",
+    "type": "?"
+   },
+   {
+    "name": "noMicrophoneFrames",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "StatusItemController",
+  "demangled": "StatusItemController",
+  "numFields": 7,
+  "fields": [
+   {
+    "name": "item",
+    "type": "So12NSStatusItemCSg"
+   },
+   {
+    "name": "recorder",
+    "type": "?"
+   },
+   {
+    "name": "appState",
+    "type": "?"
+   },
+   {
+    "name": "cancellables",
+    "type": "?"
+   },
+   {
+    "name": "menu",
+    "type": "So6NSMenuC"
+   },
+   {
+    "name": "toggleItem",
+    "type": "So10NSMenuItemC"
+   },
+   {
+    "name": "recentMenu",
+    "type": "So6NSMenuC"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "TeleprompterState",
+  "demangled": "TeleprompterState",
+  "numFields": 18,
+  "fields": [
+   {
+    "name": "_enabled",
+    "type": "?"
+   },
+   {
+    "name": "_script",
+    "type": "?"
+   },
+   {
+    "name": "_fontSize",
+    "type": "?"
+   },
+   {
+    "name": "_interactive",
+    "type": "?"
+   },
+   {
+    "name": "_edgeHover",
+    "type": "?"
+   },
+   {
+    "name": "_temporarilyHidden",
+    "type": "?"
+   },
+   {
+    "name": "_recording",
+    "type": "?"
+   },
+   {
+    "name": "marks",
+    "type": "?"
+   },
+   {
+    "name": "recordingStartHost",
+    "type": "SdSg"
+   },
+   {
+    "name": "_scrollTarget",
+    "type": "?"
+   },
+   {
+    "name": "_scrollTick",
+    "type": "?"
+   },
+   {
+    "name": "_pageIndex",
+    "type": "?"
+   },
+   {
+    "name": "_pageCount",
+    "type": "?"
+   },
+   {
+    "name": "currentOffset",
+    "type": "Sd"
+   },
+   {
+    "name": "viewportHeight",
+    "type": "Sd"
+   },
+   {
+    "name": "contentHeight",
+    "type": "Sd"
+   },
+   {
+    "name": "lineHeight",
+    "type": "Sd"
+   },
+   {
+    "name": "topParagraph",
+    "type": "Si"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "TeleprompterScript",
+  "demangled": "TeleprompterScript",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "title",
+    "type": "SS"
+   },
+   {
+    "name": "paragraphs",
+    "type": "SaySSG"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "title",
+    "type": "?"
+   },
+   {
+    "name": "paragraphs",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "PrompterPanel",
+  "demangled": "PrompterPanel",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "allowsKey",
+    "type": "Sb"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "TeleprompterController",
+  "demangled": "TeleprompterController",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "panel",
+    "type": "So7NSPanelCSg"
+   },
+   {
+    "name": "state",
+    "type": "?"
+   },
+   {
+    "name": "edgeTimer",
+    "type": "So7NSTimerCSg"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "PrompterTextView",
+  "demangled": "PrompterTextView",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "onFileDrop",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "Coordinator",
+  "demangled": "Coordinator",
+  "numFields": 6,
+  "fields": [
+   {
+    "name": "state",
+    "type": "?"
+   },
+   {
+    "name": "lastTick",
+    "type": "Si"
+   },
+   {
+    "name": "lastFont",
+    "type": "?"
+   },
+   {
+    "name": "isEditing",
+    "type": "Sb"
+   },
+   {
+    "name": "scrollView",
+    "type": "So12NSScrollViewCSgXw"
+   },
+   {
+    "name": "debounce",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "TeleprompterView",
+  "demangled": "TeleprompterView",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "_state",
+    "type": "?"
+   },
+   {
+    "name": "resize",
+    "type": "?"
+   },
+   {
+    "name": "_dropTargeted",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "PrompterSection",
+  "demangled": "PrompterSection",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_state",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "ResizeGrip",
+  "demangled": "ResizeGrip",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "resize",
+    "type": "?"
+   },
+   {
+    "name": "highlighted",
+    "type": "Sb"
+   },
+   {
+    "name": "_last",
+    "type": "?"
+   },
+   {
+    "name": "_hovering",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "PrompterText",
+  "demangled": "PrompterText",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "_state",
+    "type": "?"
+   },
+   {
+    "name": "editable",
+    "type": "Sb"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "PrompterLabel",
+  "demangled": "PrompterLabel",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "text",
+    "type": "SS"
+   },
+   {
+    "name": "size",
+    "type": "?"
+   },
+   {
+    "name": "color",
+    "type": "So7NSColorC"
+   },
+   {
+    "name": "weight",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CLIError",
+  "demangled": "CLIError",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "description",
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "AgentPromptPopover",
+  "demangled": "AgentPromptPopover",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "recording",
+    "type": "?"
+   },
+   {
+    "name": "onCopied",
+    "type": "yyc"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CropSheet",
+  "demangled": "CropSheet",
+  "numFields": 13,
+  "fields": [
+   {
+    "name": "_editor",
+    "type": "?"
+   },
+   {
+    "name": "_dismiss",
+    "type": "?"
+   },
+   {
+    "name": "_crop",
+    "type": "?"
+   },
+   {
+    "name": "_lockedRatio",
+    "type": "?"
+   },
+   {
+    "name": "_ratioKey",
+    "type": "?"
+   },
+   {
+    "name": "_alsoSetCanvas",
+    "type": "?"
+   },
+   {
+    "name": "_regenerateZoom",
+    "type": "?"
+   },
+   {
+    "name": "_frame",
+    "type": "?"
+   },
+   {
+    "name": "_previewMs",
+    "type": "?"
+   },
+   {
+    "name": "_loading",
+    "type": "?"
+   },
+   {
+    "name": "_frameRequest",
+    "type": "?"
+   },
+   {
+    "name": "_frameGenerator",
+    "type": "?"
+   },
+   {
+    "name": "_dragOrigin",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "Handle",
+  "demangled": "Handle",
+  "numFields": 8,
+  "fields": [
+   {
+    "name": "tl",
+    "type": "?"
+   },
+   {
+    "name": "t",
+    "type": "?"
+   },
+   {
+    "name": "tr",
+    "type": "?"
+   },
+   {
+    "name": "r",
+    "type": "?"
+   },
+   {
+    "name": "br",
+    "type": "?"
+   },
+   {
+    "name": "b",
+    "type": "?"
+   },
+   {
+    "name": "bl",
+    "type": "?"
+   },
+   {
+    "name": "l",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "EditorState",
+  "demangled": "EditorState",
+  "numFields": 34,
+  "fields": [
+   {
+    "name": "recording",
+    "type": "?"
+   },
+   {
+    "name": "track",
+    "type": "?"
+   },
+   {
+    "name": "_project",
+    "type": "?"
+   },
+   {
+    "name": "revision",
+    "type": "Si"
+   },
+   {
+    "name": "stage",
+    "type": "?"
+   },
+   {
+    "name": "clock",
+    "type": "?"
+   },
+   {
+    "name": "_selectedZoomID",
+    "type": "?"
+   },
+   {
+    "name": "_selectedMaskID",
+    "type": "?"
+   },
+   {
+    "name": "_statusMessage",
+    "type": "?"
+   },
+   {
+    "name": "statusWorkItem",
+    "type": "?"
+   },
+   {
+    "name": "renderer",
+    "type": "?"
+   },
+   {
+    "name": "$__lazy_storage_$_playback",
+    "type": "?"
+   },
+   {
+    "name": "saveWorkItem",
+    "type": "?"
+   },
+   {
+    "name": "undo",
+    "type": "?"
+   },
+   {
+    "name": "_audioEnvelope",
+    "type": "?"
+   },
+   {
+    "name": "lastSyncedData",
+    "type": "?"
+   },
+   {
+    "name": "isApplyingExternal",
+    "type": "Sb"
+   },
+   {
+    "name": "folderWatcher",
+    "type": "?"
+   },
+   {
+    "name": "reloadWorkItem",
+    "type": "?"
+   },
+   {
+    "name": "zoomDragSnapshotted",
+    "type": "Sb"
+   },
+   {
+    "name": "zoomDragOrigins",
+    "type": "?"
+   },
+   {
+    "name": "maskTimeDragOrigin",
+    "type": "?"
+   },
+   {
+    "name": "maskDragOrigin",
+    "type": "?"
+   },
+   {
+    "name": "cameraDragActive",
+    "type": "Sb"
+   },
+   {
+    "name": "_exportProgress",
+    "type": "?"
+   },
+   {
+    "name": "_exportError",
+    "type": "?"
+   },
+   {
+    "name": "_exportDiagnostics",
+    "type": "?"
+   },
+   {
+    "name": "_showExportSheet",
+    "type": "?"
+   },
+   {
+    "name": "_exportPhase",
+    "type": "?"
+   },
+   {
+    "name": "exporter",
+    "type": "?"
+   },
+   {
+    "name": "lastExportURL",
+    "type": "?"
+   },
+   {
+    "name": "_selection",
+    "type": "?"
+   },
+   {
+    "name": "_thumbnails",
+    "type": "?"
+   },
+   {
+    "name": "thumbnailTask",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "PlayheadClock",
+  "demangled": "PlayheadClock",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_ms",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "StageLayerModel",
+  "demangled": "StageLayerModel",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "layer",
+    "type": "So7CALayerC"
+   },
+   {
+    "name": "_hasContent",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "ExportPhase",
+  "demangled": "ExportPhase",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "pick",
+    "type": "?"
+   },
+   {
+    "name": "working",
+    "type": "?"
+   },
+   {
+    "name": "done",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "HostView",
+  "demangled": "HostView",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "content",
+    "type": "So7CALayerC"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "EditorView",
+  "demangled": "EditorView",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "recording",
+    "type": "?"
+   },
+   {
+    "name": "_appState",
+    "type": "?"
+   },
+   {
+    "name": "_editor",
+    "type": "?"
+   },
+   {
+    "name": "_showAgentPrompt",
+    "type": "?"
+   },
+   {
+    "name": "_showResetConfirm",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "StageView",
+  "demangled": "StageView",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_editor",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "StageLoadingOverlay",
+  "demangled": "StageLoadingOverlay",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_stage",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "StageLayerHost",
+  "demangled": "StageLayerHost",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "model",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "ExportSheet",
+  "demangled": "ExportSheet",
+  "numFields": 6,
+  "fields": [
+   {
+    "name": "_editor",
+    "type": "?"
+   },
+   {
+    "name": "_dismiss",
+    "type": "?"
+   },
+   {
+    "name": "_options",
+    "type": "?"
+   },
+   {
+    "name": "_preset",
+    "type": "?"
+   },
+   {
+    "name": "_showAdvanced",
+    "type": "?"
+   },
+   {
+    "name": "_copiedDiag",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "Tab",
+  "demangled": "Tab",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "frame",
+    "type": "?"
+   },
+   {
+    "name": "camera",
+    "type": "?"
+   },
+   {
+    "name": "zoom",
+    "type": "?"
+   },
+   {
+    "name": "cursor",
+    "type": "?"
+   },
+   {
+    "name": "audio",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "InspectorView",
+  "demangled": "InspectorView",
+  "numFields": 7,
+  "fields": [
+   {
+    "name": "demoWallpaperExpanded",
+    "type": "Sb"
+   },
+   {
+    "name": "_editor",
+    "type": "?"
+   },
+   {
+    "name": "_tab",
+    "type": "?"
+   },
+   {
+    "name": "_customWallpapers",
+    "type": "?"
+   },
+   {
+    "name": "_showCropSheet",
+    "type": "?"
+   },
+   {
+    "name": "_wallpaperExpanded",
+    "type": "?"
+   },
+   {
+    "name": "_zoomIntensity",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "RailButtonStyle",
+  "demangled": "RailButtonStyle",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_hovering",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "20",
+  "mangled": null,
+  "demangled": null,
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "struct",
+  "mangled": "InspectorToggleRow",
+  "demangled": "InspectorToggleRow",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "label",
+    "type": "SS"
+   },
+   {
+    "name": "_isOn",
+    "type": "?"
+   },
+   {
+    "name": "why",
+    "type": "SSSg"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "InspectorSliderRow",
+  "demangled": "InspectorSliderRow",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "label",
+    "type": "SS"
+   },
+   {
+    "name": "_value",
+    "type": "?"
+   },
+   {
+    "name": "range",
+    "type": "SNySdG"
+   },
+   {
+    "name": "valueText",
+    "type": "SS"
+   },
+   {
+    "name": "why",
+    "type": "SSSg"
+   }
+  ]
+ },
+ {
+  "kind": "module",
+  "mangled": null,
+  "demangled": null,
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "struct",
+  "mangled": "WhyText",
+  "demangled": "WhyText",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "text",
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "MaskOverlay",
+  "demangled": "MaskOverlay",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "_editor",
+    "type": "?"
+   },
+   {
+    "name": "canvasRect",
+    "type": "?"
+   },
+   {
+    "name": "demoMasks",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "PlaybackController",
+  "demangled": "PlaybackController",
+  "numFields": 23,
+  "fields": [
+   {
+    "name": "_isPlaying",
+    "type": "?"
+   },
+   {
+    "name": "_masterDurationMs",
+    "type": "?"
+   },
+   {
+    "name": "editor",
+    "type": "?"
+   },
+   {
+    "name": "player",
+    "type": "So8AVPlayerCSg"
+   },
+   {
+    "name": "screenOutput",
+    "type": "So23AVPlayerItemVideoOutputCSg"
+   },
+   {
+    "name": "camPlayer",
+    "type": "So8AVPlayerCSg"
+   },
+   {
+    "name": "camOutput",
+    "type": "So23AVPlayerItemVideoOutputCSg"
+   },
+   {
+    "name": "playIdx",
+    "type": "Si"
+   },
+   {
+    "name": "seeking",
+    "type": "Sb"
+   },
+   {
+    "name": "timer",
+    "type": "So7NSTimerCSg"
+   },
+   {
+    "name": "displayLink",
+    "type": "So13CADisplayLinkCSg"
+   },
+   {
+    "name": "renderSize",
+    "type": "?"
+   },
+   {
+    "name": "lastScreenImage",
+    "type": "?"
+   },
+   {
+    "name": "lastScreenPB",
+    "type": "?"
+   },
+   {
+    "name": "lastCamImage",
+    "type": "?"
+   },
+   {
+    "name": "lastCamPB",
+    "type": "?"
+   },
+   {
+    "name": "camSeekInFlight",
+    "type": "Sb"
+   },
+   {
+    "name": "lastCamSyncHost",
+    "type": "Sd"
+   },
+   {
+    "name": "lastRenderKey",
+    "type": "Sd8playhead_Si8revisionSb7playingtSg"
+   },
+   {
+    "name": "previewScale",
+    "type": "?"
+   },
+   {
+    "name": "renderCostEMA",
+    "type": "Sd"
+   },
+   {
+    "name": "scaleEvalTick",
+    "type": "Si"
+   },
+   {
+    "name": "perfWindowStart",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "SceneRenderer",
+  "demangled": "SceneRenderer",
+  "numFields": 11,
+  "fields": [
+   {
+    "name": "ciContext",
+    "type": "So9CIContextC"
+   },
+   {
+    "name": "wallpaperCache",
+    "type": "?"
+   },
+   {
+    "name": "$__lazy_storage_$_cursorSprite",
+    "type": "?"
+   },
+   {
+    "name": "renderCtxCache",
+    "type": "?"
+   },
+   {
+    "name": "plateCache",
+    "type": "?"
+   },
+   {
+    "name": "camShadowCache",
+    "type": "?"
+   },
+   {
+    "name": "camKey",
+    "type": "?"
+   },
+   {
+    "name": "camTimeline",
+    "type": "?"
+   },
+   {
+    "name": "curKey",
+    "type": "?"
+   },
+   {
+    "name": "curTimeline",
+    "type": "?"
+   },
+   {
+    "name": "ciColorSpace",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CursorTimelineKey",
+  "demangled": "CursorTimelineKey",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "cursorCount",
+    "type": "Si"
+   },
+   {
+    "name": "clickCount",
+    "type": "Si"
+   },
+   {
+    "name": "smooth",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CamTimelineKey",
+  "demangled": "CamTimelineKey",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "segs",
+    "type": "?"
+   },
+   {
+    "name": "level",
+    "type": "Sd"
+   },
+   {
+    "name": "speed",
+    "type": "Sd"
+   },
+   {
+    "name": "cursorCount",
+    "type": "Si"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CamShadowKey",
+  "demangled": "CamShadowKey",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "w",
+    "type": "Si"
+   },
+   {
+    "name": "h",
+    "type": "Si"
+   },
+   {
+    "name": "shape",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "PlateEntry",
+  "demangled": "PlateEntry",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "plate",
+    "type": "?"
+   },
+   {
+    "name": "ci",
+    "type": "So7CIImageC"
+   },
+   {
+    "name": "corners",
+    "type": "?"
+   },
+   {
+    "name": "cornerSide",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "PlateKey",
+  "demangled": "PlateKey",
+  "numFields": 9,
+  "fields": [
+   {
+    "name": "w",
+    "type": "Si"
+   },
+   {
+    "name": "h",
+    "type": "Si"
+   },
+   {
+    "name": "bg",
+    "type": "SS"
+   },
+   {
+    "name": "padding",
+    "type": "Sd"
+   },
+   {
+    "name": "radius",
+    "type": "Sd"
+   },
+   {
+    "name": "shadow",
+    "type": "Sd"
+   },
+   {
+    "name": "vw",
+    "type": "Si"
+   },
+   {
+    "name": "vh",
+    "type": "Si"
+   },
+   {
+    "name": "bgra",
+    "type": "Sb"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "ExportInput",
+  "demangled": "ExportInput",
+  "numFields": 10,
+  "fields": [
+   {
+    "name": "videoPB",
+    "type": "?"
+   },
+   {
+    "name": "sourceTimeMs",
+    "type": "Sd"
+   },
+   {
+    "name": "cfg",
+    "type": "?"
+   },
+   {
+    "name": "zoomSegs",
+    "type": "?"
+   },
+   {
+    "name": "track",
+    "type": "?"
+   },
+   {
+    "name": "camFrame",
+    "type": "?"
+   },
+   {
+    "name": "camCfg",
+    "type": "?"
+   },
+   {
+    "name": "layout",
+    "type": "?"
+   },
+   {
+    "name": "masks",
+    "type": "?"
+   },
+   {
+    "name": "maskTimeMs",
+    "type": "SdSg"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "Input",
+  "demangled": "Input",
+  "numFields": 10,
+  "fields": [
+   {
+    "name": "videoFrame",
+    "type": "?"
+   },
+   {
+    "name": "sourceTimeMs",
+    "type": "Sd"
+   },
+   {
+    "name": "cfg",
+    "type": "?"
+   },
+   {
+    "name": "zoomSegs",
+    "type": "?"
+   },
+   {
+    "name": "track",
+    "type": "?"
+   },
+   {
+    "name": "camFrame",
+    "type": "?"
+   },
+   {
+    "name": "camCfg",
+    "type": "?"
+   },
+   {
+    "name": "layout",
+    "type": "?"
+   },
+   {
+    "name": "masks",
+    "type": "?"
+   },
+   {
+    "name": "hiQuality",
+    "type": "Sb"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "ZoomDragMode",
+  "demangled": "ZoomDragMode",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "move",
+    "type": "?"
+   },
+   {
+    "name": "resizeStart",
+    "type": "?"
+   },
+   {
+    "name": "resizeEnd",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "TimelineView",
+  "demangled": "TimelineView",
+  "numFields": 22,
+  "fields": [
+   {
+    "name": "_editor",
+    "type": "?"
+   },
+   {
+    "name": "rulerH",
+    "type": "?"
+   },
+   {
+    "name": "filmH",
+    "type": "?"
+   },
+   {
+    "name": "waveH",
+    "type": "?"
+   },
+   {
+    "name": "zoomH",
+    "type": "?"
+   },
+   {
+    "name": "maskH",
+    "type": "?"
+   },
+   {
+    "name": "blankH",
+    "type": "?"
+   },
+   {
+    "name": "gapTop",
+    "type": "?"
+   },
+   {
+    "name": "_scrubbing",
+    "type": "?"
+   },
+   {
+    "name": "_scrubResume",
+    "type": "?"
+   },
+   {
+    "name": "_selAnchor",
+    "type": "?"
+   },
+   {
+    "name": "_hoveredZoomID",
+    "type": "?"
+   },
+   {
+    "name": "_zoomDrag",
+    "type": "?"
+   },
+   {
+    "name": "_cursorIsResize",
+    "type": "?"
+   },
+   {
+    "name": "_lastZoomClickAt",
+    "type": "?"
+   },
+   {
+    "name": "_lastZoomClickX",
+    "type": "?"
+   },
+   {
+    "name": "_maskDrag",
+    "type": "?"
+   },
+   {
+    "name": "_hoveredMaskID",
+    "type": "?"
+   },
+   {
+    "name": "_lastMaskClickAt",
+    "type": "?"
+   },
+   {
+    "name": "_lastMaskClickX",
+    "type": "?"
+   },
+   {
+    "name": "_zoom",
+    "type": "?"
+   },
+   {
+    "name": "_lastPinchScale",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "PlayheadIndicator",
+  "demangled": "PlayheadIndicator",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "_clock",
+    "type": "?"
+   },
+   {
+    "name": "total",
+    "type": "Sd"
+   },
+   {
+    "name": "width",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "TransportActionStyle",
+  "demangled": "TransportActionStyle",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "tint",
+    "type": "?"
+   },
+   {
+    "name": "_hovering",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "TransportTimecode",
+  "demangled": "TransportTimecode",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "_clock",
+    "type": "?"
+   },
+   {
+    "name": "totalMs",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "TransportPlayButton",
+  "demangled": "TransportPlayButton",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_playback",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "ZoomFocusOverlay",
+  "demangled": "ZoomFocusOverlay",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "_editor",
+    "type": "?"
+   },
+   {
+    "name": "seg",
+    "type": "?"
+   },
+   {
+    "name": "canvasRect",
+    "type": "?"
+   },
+   {
+    "name": "_scrollMonitor",
+    "type": "?"
+   },
+   {
+    "name": "_hovering",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "ExportPreset",
+  "demangled": "ExportPreset",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "bilibili",
+    "type": "?"
+   },
+   {
+    "name": "xiaohongshu",
+    "type": "?"
+   },
+   {
+    "name": "wechat",
+    "type": "?"
+   },
+   {
+    "name": "gifClip",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "ExportOptions",
+  "demangled": "ExportOptions",
+  "numFields": 7,
+  "fields": [
+   {
+    "name": "aspect",
+    "type": "?"
+   },
+   {
+    "name": "resolution",
+    "type": "?"
+   },
+   {
+    "name": "format",
+    "type": "?"
+   },
+   {
+    "name": "fps",
+    "type": "?"
+   },
+   {
+    "name": "quality",
+    "type": "?"
+   },
+   {
+    "name": "useHEVC",
+    "type": "Sb"
+   },
+   {
+    "name": "clipRange",
+    "type": "SNySdGSg"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "ExportQuality",
+  "demangled": "ExportQuality",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "high",
+    "type": "?"
+   },
+   {
+    "name": "standard",
+    "type": "?"
+   },
+   {
+    "name": "small",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "ExportFPS",
+  "demangled": "ExportFPS",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "source",
+    "type": "?"
+   },
+   {
+    "name": "f60",
+    "type": "?"
+   },
+   {
+    "name": "f30",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "ExportFormat",
+  "demangled": "ExportFormat",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "mp4",
+    "type": "?"
+   },
+   {
+    "name": "gif",
+    "type": "?"
+   },
+   {
+    "name": "prores",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "ExportResolution",
+  "demangled": "ExportResolution",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "p4k",
+    "type": "?"
+   },
+   {
+    "name": "p2k",
+    "type": "?"
+   },
+   {
+    "name": "p1080",
+    "type": "?"
+   },
+   {
+    "name": "p720",
+    "type": "?"
+   },
+   {
+    "name": "original",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "ExportAspect",
+  "demangled": "ExportAspect",
+  "numFields": 6,
+  "fields": [
+   {
+    "name": "wide",
+    "type": "?"
+   },
+   {
+    "name": "tall",
+    "type": "?"
+   },
+   {
+    "name": "portrait",
+    "type": "?"
+   },
+   {
+    "name": "photo",
+    "type": "?"
+   },
+   {
+    "name": "source",
+    "type": "?"
+   },
+   {
+    "name": "square",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "VideoExporter",
+  "demangled": "VideoExporter",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "cancelled",
+    "type": "Sb"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "DriveState",
+  "demangled": "DriveState",
+  "numFields": 19,
+  "fields": [
+   {
+    "name": "lock",
+    "type": "So6NSLockC"
+   },
+   {
+    "name": "firstError",
+    "type": "?"
+   },
+   {
+    "name": "videoDone",
+    "type": "Sb"
+   },
+   {
+    "name": "audioDone",
+    "type": "Sb"
+   },
+   {
+    "name": "frameIndex",
+    "type": "Si"
+   },
+   {
+    "name": "lastScreen",
+    "type": "?"
+   },
+   {
+    "name": "bufferedScreen",
+    "type": "?"
+   },
+   {
+    "name": "screenEOF",
+    "type": "Sb"
+   },
+   {
+    "name": "lastCamImage",
+    "type": "?"
+   },
+   {
+    "name": "lastCamPTS",
+    "type": "Sd"
+   },
+   {
+    "name": "bufferedCam",
+    "type": "?"
+   },
+   {
+    "name": "wallStart",
+    "type": "Sd"
+   },
+   {
+    "name": "tDecode",
+    "type": "Sd"
+   },
+   {
+    "name": "tRender",
+    "type": "Sd"
+   },
+   {
+    "name": "tAppend",
+    "type": "Sd"
+   },
+   {
+    "name": "bufPool",
+    "type": "Si"
+   },
+   {
+    "name": "bufManual",
+    "type": "Si"
+   },
+   {
+    "name": "camReaderFailedLogged",
+    "type": "Sb"
+   },
+   {
+    "name": "audioPTSMs",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "ExportError",
+  "demangled": "ExportError",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "writerFailed",
+    "type": "SS"
+   },
+   {
+    "name": "diagnosed",
+    "type": "SS"
+   },
+   {
+    "name": "noVideoTrack",
+    "type": "?"
+   },
+   {
+    "name": "cancelled",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "L10n",
+  "demangled": "L10n",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "_language",
+    "type": "?"
+   },
+   {
+    "name": "_override",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "AppLanguage",
+  "demangled": "AppLanguage",
+  "numFields": 7,
+  "fields": [
+   {
+    "name": "zhHans",
+    "type": "?"
+   },
+   {
+    "name": "zhHant",
+    "type": "?"
+   },
+   {
+    "name": "en",
+    "type": "?"
+   },
+   {
+    "name": "fr",
+    "type": "?"
+   },
+   {
+    "name": "es",
+    "type": "?"
+   },
+   {
+    "name": "ja",
+    "type": "?"
+   },
+   {
+    "name": "ko",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "SettingsView",
+  "demangled": "SettingsView",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_l10n",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "AudioEnvelope",
+  "demangled": "AudioEnvelope",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "bucketMs",
+    "type": "Sd"
+   },
+   {
+    "name": "values",
+    "type": "SaySfG"
+   }
+  ]
+ },
+ {
+  "kind": "24",
+  "mangled": null,
+  "demangled": null,
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "enum",
+  "mangled": "AudioTimeline",
+  "demangled": "AudioTimeline",
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "struct",
+  "mangled": "Range3",
+  "demangled": "Range3",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "start",
+    "type": "Sd"
+   },
+   {
+    "name": "end",
+    "type": "Sd"
+   },
+   {
+    "name": "vol",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "LayoutWeights",
+  "demangled": "LayoutWeights",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "screen",
+    "type": "Sd"
+   },
+   {
+    "name": "cam",
+    "type": "Sd"
+   },
+   {
+    "name": "hero",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "MotionTimeline",
+  "demangled": "MotionTimeline",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "samples",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "MotionSample",
+  "demangled": "MotionSample",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "a",
+    "type": "Sd"
+   },
+   {
+    "name": "b",
+    "type": "Sd"
+   },
+   {
+    "name": "c",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "ZoomSegment",
+  "demangled": "ZoomSegment",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "start",
+    "type": "Sd"
+   },
+   {
+    "name": "end",
+    "type": "Sd"
+   },
+   {
+    "name": "level",
+    "type": "SdSg"
+   },
+   {
+    "name": "points",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "MaskRegion",
+  "demangled": "MaskRegion",
+  "numFields": 11,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "start",
+    "type": "SdSg"
+   },
+   {
+    "name": "end",
+    "type": "SdSg"
+   },
+   {
+    "name": "x",
+    "type": "Sd"
+   },
+   {
+    "name": "y",
+    "type": "Sd"
+   },
+   {
+    "name": "w",
+    "type": "Sd"
+   },
+   {
+    "name": "h",
+    "type": "Sd"
+   },
+   {
+    "name": "style",
+    "type": "?"
+   },
+   {
+    "name": "shape",
+    "type": "?"
+   },
+   {
+    "name": "strength",
+    "type": "Sd"
+   },
+   {
+    "name": "colorHex",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "Project",
+  "demangled": "Project",
+  "numFields": 12,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "title",
+    "type": "SS"
+   },
+   {
+    "name": "segments",
+    "type": "?"
+   },
+   {
+    "name": "zoomSegs",
+    "type": "?"
+   },
+   {
+    "name": "masks",
+    "type": "?"
+   },
+   {
+    "name": "layoutSegs",
+    "type": "?"
+   },
+   {
+    "name": "audioSegs",
+    "type": "?"
+   },
+   {
+    "name": "cfg",
+    "type": "?"
+   },
+   {
+    "name": "camCfg",
+    "type": "?"
+   },
+   {
+    "name": "audio",
+    "type": "?"
+   },
+   {
+    "name": "beautify",
+    "type": "Sb"
+   },
+   {
+    "name": "savedAt",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CamShape",
+  "demangled": "CamShape",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "circle",
+    "type": "?"
+   },
+   {
+    "name": "square",
+    "type": "?"
+   },
+   {
+    "name": "rect",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "Wallpaper",
+  "demangled": "Wallpaper",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "id",
+    "type": "SS"
+   },
+   {
+    "name": "name",
+    "type": "SS"
+   },
+   {
+    "name": "file",
+    "type": "SSSg"
+   },
+   {
+    "name": "fallbackHex",
+    "type": "?"
+   },
+   {
+    "name": "light",
+    "type": "Sb"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CropRect",
+  "demangled": "CropRect",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "x",
+    "type": "Sd"
+   },
+   {
+    "name": "y",
+    "type": "Sd"
+   },
+   {
+    "name": "w",
+    "type": "Sd"
+   },
+   {
+    "name": "h",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 12,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "title",
+    "type": "?"
+   },
+   {
+    "name": "segments",
+    "type": "?"
+   },
+   {
+    "name": "zoomSegs",
+    "type": "?"
+   },
+   {
+    "name": "masks",
+    "type": "?"
+   },
+   {
+    "name": "layoutSegs",
+    "type": "?"
+   },
+   {
+    "name": "audioSegs",
+    "type": "?"
+   },
+   {
+    "name": "cfg",
+    "type": "?"
+   },
+   {
+    "name": "camCfg",
+    "type": "?"
+   },
+   {
+    "name": "audio",
+    "type": "?"
+   },
+   {
+    "name": "beautify",
+    "type": "?"
+   },
+   {
+    "name": "savedAt",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 11,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "start",
+    "type": "?"
+   },
+   {
+    "name": "end",
+    "type": "?"
+   },
+   {
+    "name": "x",
+    "type": "?"
+   },
+   {
+    "name": "y",
+    "type": "?"
+   },
+   {
+    "name": "w",
+    "type": "?"
+   },
+   {
+    "name": "h",
+    "type": "?"
+   },
+   {
+    "name": "style",
+    "type": "?"
+   },
+   {
+    "name": "shape",
+    "type": "?"
+   },
+   {
+    "name": "strength",
+    "type": "?"
+   },
+   {
+    "name": "colorHex",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "start",
+    "type": "?"
+   },
+   {
+    "name": "end",
+    "type": "?"
+   },
+   {
+    "name": "level",
+    "type": "?"
+   },
+   {
+    "name": "points",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "ZoomPoint",
+  "demangled": "ZoomPoint",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "t",
+    "type": "Sd"
+   },
+   {
+    "name": "x",
+    "type": "Sd"
+   },
+   {
+    "name": "y",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "MaskShape",
+  "demangled": "MaskShape",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "rect",
+    "type": "?"
+   },
+   {
+    "name": "ellipse",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "MaskStyle",
+  "demangled": "MaskStyle",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "solid",
+    "type": "?"
+   },
+   {
+    "name": "pixelate",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "AudioConfig",
+  "demangled": "AudioConfig",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "micVol",
+    "type": "Sd"
+   },
+   {
+    "name": "sysVol",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "CamConfig",
+  "demangled": "CamConfig",
+  "numFields": 7,
+  "fields": [
+   {
+    "name": "show",
+    "type": "Sb"
+   },
+   {
+    "name": "x",
+    "type": "Sd"
+   },
+   {
+    "name": "y",
+    "type": "Sd"
+   },
+   {
+    "name": "size",
+    "type": "Sd"
+   },
+   {
+    "name": "shape",
+    "type": "?"
+   },
+   {
+    "name": "mirror",
+    "type": "Sb"
+   },
+   {
+    "name": "ring",
+    "type": "Sb"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "ProjectConfig",
+  "demangled": "ProjectConfig",
+  "numFields": 14,
+  "fields": [
+   {
+    "name": "background",
+    "type": "SS"
+   },
+   {
+    "name": "padding",
+    "type": "Sd"
+   },
+   {
+    "name": "radius",
+    "type": "Sd"
+   },
+   {
+    "name": "shadow",
+    "type": "Sd"
+   },
+   {
+    "name": "clickFx",
+    "type": "Sb"
+   },
+   {
+    "name": "cursor",
+    "type": "Sb"
+   },
+   {
+    "name": "cursorSize",
+    "type": "Sd"
+   },
+   {
+    "name": "cursorSmooth",
+    "type": "Sd"
+   },
+   {
+    "name": "autoZoom",
+    "type": "Sb"
+   },
+   {
+    "name": "zoomLevel",
+    "type": "Sd"
+   },
+   {
+    "name": "motionBlur",
+    "type": "Sd"
+   },
+   {
+    "name": "zoomSpeed",
+    "type": "Sd"
+   },
+   {
+    "name": "canvasAspect",
+    "type": "SS"
+   },
+   {
+    "name": "crop",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "AudioSegment",
+  "demangled": "AudioSegment",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "start",
+    "type": "Sd"
+   },
+   {
+    "name": "end",
+    "type": "Sd"
+   },
+   {
+    "name": "micVol",
+    "type": "SdSg"
+   },
+   {
+    "name": "sysVol",
+    "type": "SdSg"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "LayoutSegment",
+  "demangled": "LayoutSegment",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "start",
+    "type": "Sd"
+   },
+   {
+    "name": "end",
+    "type": "Sd"
+   },
+   {
+    "name": "mode",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "EditSegment",
+  "demangled": "EditSegment",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "s",
+    "type": "Sd"
+   },
+   {
+    "name": "e",
+    "type": "Sd"
+   },
+   {
+    "name": "speed",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "x",
+    "type": "?"
+   },
+   {
+    "name": "y",
+    "type": "?"
+   },
+   {
+    "name": "w",
+    "type": "?"
+   },
+   {
+    "name": "h",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "micVol",
+    "type": "?"
+   },
+   {
+    "name": "sysVol",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 7,
+  "fields": [
+   {
+    "name": "show",
+    "type": "?"
+   },
+   {
+    "name": "x",
+    "type": "?"
+   },
+   {
+    "name": "y",
+    "type": "?"
+   },
+   {
+    "name": "size",
+    "type": "?"
+   },
+   {
+    "name": "shape",
+    "type": "?"
+   },
+   {
+    "name": "mirror",
+    "type": "?"
+   },
+   {
+    "name": "ring",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 14,
+  "fields": [
+   {
+    "name": "background",
+    "type": "?"
+   },
+   {
+    "name": "padding",
+    "type": "?"
+   },
+   {
+    "name": "radius",
+    "type": "?"
+   },
+   {
+    "name": "shadow",
+    "type": "?"
+   },
+   {
+    "name": "clickFx",
+    "type": "?"
+   },
+   {
+    "name": "cursor",
+    "type": "?"
+   },
+   {
+    "name": "cursorSize",
+    "type": "?"
+   },
+   {
+    "name": "cursorSmooth",
+    "type": "?"
+   },
+   {
+    "name": "autoZoom",
+    "type": "?"
+   },
+   {
+    "name": "zoomLevel",
+    "type": "?"
+   },
+   {
+    "name": "motionBlur",
+    "type": "?"
+   },
+   {
+    "name": "zoomSpeed",
+    "type": "?"
+   },
+   {
+    "name": "canvasAspect",
+    "type": "?"
+   },
+   {
+    "name": "crop",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 5,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "start",
+    "type": "?"
+   },
+   {
+    "name": "end",
+    "type": "?"
+   },
+   {
+    "name": "micVol",
+    "type": "?"
+   },
+   {
+    "name": "sysVol",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "start",
+    "type": "?"
+   },
+   {
+    "name": "end",
+    "type": "?"
+   },
+   {
+    "name": "mode",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "s",
+    "type": "?"
+   },
+   {
+    "name": "e",
+    "type": "?"
+   },
+   {
+    "name": "speed",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "t",
+    "type": "?"
+   },
+   {
+    "name": "x",
+    "type": "?"
+   },
+   {
+    "name": "y",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "LayoutMode",
+  "demangled": "LayoutMode",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "both",
+    "type": "?"
+   },
+   {
+    "name": "screenOnly",
+    "type": "?"
+   },
+   {
+    "name": "camOnly",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "RecordingStore",
+  "demangled": "RecordingStore",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "root",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "RecordingMeta",
+  "demangled": "RecordingMeta",
+  "numFields": 12,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "createdAt",
+    "type": "?"
+   },
+   {
+    "name": "width",
+    "type": "Si"
+   },
+   {
+    "name": "height",
+    "type": "Si"
+   },
+   {
+    "name": "durationMs",
+    "type": "Sd"
+   },
+   {
+    "name": "hasAudio",
+    "type": "Sb"
+   },
+   {
+    "name": "hasCam",
+    "type": "Sb"
+   },
+   {
+    "name": "camOffsetMs",
+    "type": "Sd"
+   },
+   {
+    "name": "sourceTitle",
+    "type": "SS"
+   },
+   {
+    "name": "cameraWarning",
+    "type": "SSSg"
+   },
+   {
+    "name": "audioWarning",
+    "type": "SSSg"
+   },
+   {
+    "name": "audioGaps",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "TrackData",
+  "demangled": "TrackData",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "cursor",
+    "type": "?"
+   },
+   {
+    "name": "clicks",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "Recording",
+  "demangled": "Recording",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "folder",
+    "type": "?"
+   },
+   {
+    "name": "meta",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "ScriptMark",
+  "demangled": "ScriptMark",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "paragraph",
+    "type": "Si"
+   },
+   {
+    "name": "ms",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "RecordedTimeline",
+  "demangled": "RecordedTimeline",
+  "numFields": 6,
+  "fields": [
+   {
+    "name": "version",
+    "type": "Si"
+   },
+   {
+    "name": "durationMs",
+    "type": "Sd"
+   },
+   {
+    "name": "clicks",
+    "type": "?"
+   },
+   {
+    "name": "apps",
+    "type": "?"
+   },
+   {
+    "name": "speech",
+    "type": "?"
+   },
+   {
+    "name": "silence",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "AppSwitch",
+  "demangled": "AppSwitch",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "t",
+    "type": "Sd"
+   },
+   {
+    "name": "name",
+    "type": "SS"
+   },
+   {
+    "name": "bundleID",
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "TrackPoint",
+  "demangled": "TrackPoint",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "t",
+    "type": "Sd"
+   },
+   {
+    "name": "x",
+    "type": "Sd"
+   },
+   {
+    "name": "y",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "AudioGapStats",
+  "demangled": "AudioGapStats",
+  "numFields": 6,
+  "fields": [
+   {
+    "name": "holeCount",
+    "type": "Si"
+   },
+   {
+    "name": "holeFilledMs",
+    "type": "Sd"
+   },
+   {
+    "name": "overflowMs",
+    "type": "Sd"
+   },
+   {
+    "name": "maxQueueMs",
+    "type": "Sd"
+   },
+   {
+    "name": "maxDriftMs",
+    "type": "Sd"
+   },
+   {
+    "name": "endDriftMs",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "RecordedScript",
+  "demangled": "RecordedScript",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "title",
+    "type": "SS"
+   },
+   {
+    "name": "paragraphs",
+    "type": "SaySSG"
+   },
+   {
+    "name": "marks",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 6,
+  "fields": [
+   {
+    "name": "holeCount",
+    "type": "?"
+   },
+   {
+    "name": "holeFilledMs",
+    "type": "?"
+   },
+   {
+    "name": "overflowMs",
+    "type": "?"
+   },
+   {
+    "name": "maxQueueMs",
+    "type": "?"
+   },
+   {
+    "name": "maxDriftMs",
+    "type": "?"
+   },
+   {
+    "name": "endDriftMs",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "t",
+    "type": "?"
+   },
+   {
+    "name": "x",
+    "type": "?"
+   },
+   {
+    "name": "y",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "t",
+    "type": "?"
+   },
+   {
+    "name": "name",
+    "type": "?"
+   },
+   {
+    "name": "bundleID",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 6,
+  "fields": [
+   {
+    "name": "version",
+    "type": "?"
+   },
+   {
+    "name": "durationMs",
+    "type": "?"
+   },
+   {
+    "name": "clicks",
+    "type": "?"
+   },
+   {
+    "name": "apps",
+    "type": "?"
+   },
+   {
+    "name": "speech",
+    "type": "?"
+   },
+   {
+    "name": "silence",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "paragraph",
+    "type": "?"
+   },
+   {
+    "name": "ms",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "cursor",
+    "type": "?"
+   },
+   {
+    "name": "clicks",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 12,
+  "fields": [
+   {
+    "name": "id",
+    "type": "?"
+   },
+   {
+    "name": "createdAt",
+    "type": "?"
+   },
+   {
+    "name": "width",
+    "type": "?"
+   },
+   {
+    "name": "height",
+    "type": "?"
+   },
+   {
+    "name": "durationMs",
+    "type": "?"
+   },
+   {
+    "name": "hasAudio",
+    "type": "?"
+   },
+   {
+    "name": "hasCam",
+    "type": "?"
+   },
+   {
+    "name": "camOffsetMs",
+    "type": "?"
+   },
+   {
+    "name": "sourceTitle",
+    "type": "?"
+   },
+   {
+    "name": "cameraWarning",
+    "type": "?"
+   },
+   {
+    "name": "audioWarning",
+    "type": "?"
+   },
+   {
+    "name": "audioGaps",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "AudioGapReport",
+  "demangled": "AudioGapReport",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "mic",
+    "type": "?"
+   },
+   {
+    "name": "sys",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "Span",
+  "demangled": "Span",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "s",
+    "type": "Sd"
+   },
+   {
+    "name": "e",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "title",
+    "type": "?"
+   },
+   {
+    "name": "paragraphs",
+    "type": "?"
+   },
+   {
+    "name": "marks",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "s",
+    "type": "?"
+   },
+   {
+    "name": "e",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "CodingKeys",
+  "demangled": "CodingKeys",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "mic",
+    "type": "?"
+   },
+   {
+    "name": "sys",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "UpdateChecker",
+  "demangled": "UpdateChecker",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_latest",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "ZoomIntensity",
+  "demangled": "ZoomIntensity",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "calm",
+    "type": "?"
+   },
+   {
+    "name": "normal",
+    "type": "?"
+   },
+   {
+    "name": "active",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "OnboardingDemoRenderer",
+  "demangled": "OnboardingDemoRenderer",
+  "numFields": 7,
+  "fields": [
+   {
+    "name": "renderer",
+    "type": "?"
+   },
+   {
+    "name": "content",
+    "type": "?"
+   },
+   {
+    "name": "ciContext",
+    "type": "So9CIContextC"
+   },
+   {
+    "name": "segsCache",
+    "type": "?"
+   },
+   {
+    "name": "timelineKey",
+    "type": "?"
+   },
+   {
+    "name": "timeline",
+    "type": "?"
+   },
+   {
+    "name": "canvas",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "TimelineKey",
+  "demangled": "TimelineKey",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "intensity",
+    "type": "?"
+   },
+   {
+    "name": "level",
+    "type": "Sd"
+   },
+   {
+    "name": "speed",
+    "type": "Sd"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "OnboardingView",
+  "demangled": "OnboardingView",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "onDone",
+    "type": "yyc"
+   },
+   {
+    "name": "_blur",
+    "type": "?"
+   },
+   {
+    "name": "_intensity",
+    "type": "?"
+   },
+   {
+    "name": "_demo",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": "HuaStudioAppDelegate",
+  "demangled": "HuaStudioAppDelegate",
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "class",
+  "mangled": "AppState",
+  "demangled": "AppState",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "_flow",
+    "type": "?"
+   },
+   {
+    "name": "_lastRecordedID",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "Flow",
+  "demangled": "Flow",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "editing",
+    "type": "?"
+   },
+   {
+    "name": "launcher",
+    "type": "?"
+   },
+   {
+    "name": "recording",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "HuaStudioApp",
+  "demangled": "HuaStudioApp",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "_appDelegate",
+    "type": "?"
+   },
+   {
+    "name": "_appState",
+    "type": "?"
+   },
+   {
+    "name": "_recorder",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "RootView",
+  "demangled": "RootView",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "_appState",
+    "type": "?"
+   },
+   {
+    "name": "_recorder",
+    "type": "?"
+   },
+   {
+    "name": "_l10n",
+    "type": "?"
+   },
+   {
+    "name": "_didOnboardMotion",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "MainWindowCommands",
+  "demangled": "MainWindowCommands",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_openWindow",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "EditingCommands",
+  "demangled": "EditingCommands",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_appState",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "RecordingStatusView",
+  "demangled": "RecordingStatusView",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_recorder",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "SourceCard",
+  "demangled": "SourceCard",
+  "numFields": 7,
+  "fields": [
+   {
+    "name": "source",
+    "type": "?"
+   },
+   {
+    "name": "label",
+    "type": "SS"
+   },
+   {
+    "name": "isSelected",
+    "type": "Sb"
+   },
+   {
+    "name": "onSelect",
+    "type": "yyc"
+   },
+   {
+    "name": "_recorder",
+    "type": "?"
+   },
+   {
+    "name": "_image",
+    "type": "?"
+   },
+   {
+    "name": "_thumbTried",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "RecordMode",
+  "demangled": "RecordMode",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "screen",
+    "type": "?"
+   },
+   {
+    "name": "window",
+    "type": "?"
+   },
+   {
+    "name": "region",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "LauncherView",
+  "demangled": "LauncherView",
+  "numFields": 14,
+  "fields": [
+   {
+    "name": "_appState",
+    "type": "?"
+   },
+   {
+    "name": "_recorder",
+    "type": "?"
+   },
+   {
+    "name": "_recordings",
+    "type": "?"
+   },
+   {
+    "name": "_mode",
+    "type": "?"
+   },
+   {
+    "name": "_heroImage",
+    "type": "?"
+   },
+   {
+    "name": "_showWindowPicker",
+    "type": "?"
+   },
+   {
+    "name": "_showLibrary",
+    "type": "?"
+   },
+   {
+    "name": "_heroHover",
+    "type": "?"
+   },
+   {
+    "name": "_heroTried",
+    "type": "?"
+   },
+   {
+    "name": "_bracketInset",
+    "type": "?"
+   },
+   {
+    "name": "_ctaGlow",
+    "type": "?"
+   },
+   {
+    "name": "_updates",
+    "type": "?"
+   },
+   {
+    "name": "_devices",
+    "type": "?"
+   },
+   {
+    "name": "_heroImageKey",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "LibrarySheet",
+  "demangled": "LibrarySheet",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "_recordings",
+    "type": "?"
+   },
+   {
+    "name": "onOpen",
+    "type": "?"
+   },
+   {
+    "name": "onDelete",
+    "type": "?"
+   },
+   {
+    "name": "_dismiss",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "LibraryCard",
+  "demangled": "LibraryCard",
+  "numFields": 6,
+  "fields": [
+   {
+    "name": "recording",
+    "type": "?"
+   },
+   {
+    "name": "onOpen",
+    "type": "yyc"
+   },
+   {
+    "name": "onDelete",
+    "type": "yycSg"
+   },
+   {
+    "name": "highlighted",
+    "type": "Sb"
+   },
+   {
+    "name": "_hovering",
+    "type": "?"
+   },
+   {
+    "name": "_title",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "LauncherToggleRow",
+  "demangled": "LauncherToggleRow",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "icon",
+    "type": "SS"
+   },
+   {
+    "name": "title",
+    "type": "SS"
+   },
+   {
+    "name": "subtitle",
+    "type": "SSSg"
+   },
+   {
+    "name": "_isOn",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "ViewfinderCorners",
+  "demangled": "ViewfinderCorners",
+  "numFields": 3,
+  "fields": [
+   {
+    "name": "inset",
+    "type": "?"
+   },
+   {
+    "name": "length",
+    "type": "?"
+   },
+   {
+    "name": "color",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "ModeCard",
+  "demangled": "ModeCard",
+  "numFields": 6,
+  "fields": [
+   {
+    "name": "icon",
+    "type": "SS"
+   },
+   {
+    "name": "title",
+    "type": "SS"
+   },
+   {
+    "name": "hint",
+    "type": "SS"
+   },
+   {
+    "name": "selected",
+    "type": "Sb"
+   },
+   {
+    "name": "action",
+    "type": "yyc"
+   },
+   {
+    "name": "_hovering",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "AppMark",
+  "demangled": "AppMark",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "size",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "enum",
+  "mangled": "ShotStudio",
+  "demangled": "ShotStudio",
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "struct",
+  "mangled": "Scene",
+  "demangled": "Scene",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "id",
+    "type": "SS"
+   },
+   {
+    "name": "summary",
+    "type": "SS"
+   },
+   {
+    "name": "size",
+    "type": "?"
+   },
+   {
+    "name": "build",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "HSIcon",
+  "demangled": "HSIcon",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "name",
+    "type": "SS"
+   },
+   {
+    "name": "size",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "HSGhostButtonStyle",
+  "demangled": "HSGhostButtonStyle",
+  "numFields": 1,
+  "fields": [
+   {
+    "name": "_hovering",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "HSPrimaryButtonStyle",
+  "demangled": "HSPrimaryButtonStyle",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "enabled",
+    "type": "Sb"
+   },
+   {
+    "name": "_hovering",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "HSToggleStyle",
+  "demangled": "HSToggleStyle",
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "struct",
+  "mangled": "HSPanel",
+  "demangled": "HSPanel",
+  "numFields": 2,
+  "fields": [
+   {
+    "name": "radius",
+    "type": "?"
+   },
+   {
+    "name": "fill",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "class",
+  "mangled": null,
+  "demangled": null,
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "struct",
+  "mangled": "HSBreathingDot",
+  "demangled": "HSBreathingDot",
+  "numFields": 4,
+  "fields": [
+   {
+    "name": "color",
+    "type": "?"
+   },
+   {
+    "name": "size",
+    "type": "?"
+   },
+   {
+    "name": "active",
+    "type": "Sb"
+   },
+   {
+    "name": "_dim",
+    "type": "?"
+   }
+  ]
+ },
+ {
+  "kind": "struct",
+  "mangled": "HSStageBackground",
+  "demangled": "HSStageBackground",
+  "numFields": 0,
+  "fields": []
+ },
+ {
+  "kind": "class",
+  "mangled": "ResourceBundleClass",
+  "demangled": "ResourceBundleClass",
+  "numFields": 0,
+  "fields": []
+ }
+]

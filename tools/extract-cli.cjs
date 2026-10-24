@@ -1,0 +1,20 @@
+
+const fs=require('fs');
+const W='/Volumes/work/code/rea/hua-studio';
+const all=fs.readFileSync(W+'/extract/strings-all.txt','utf8').split('\n');
+const clean=[...new Set(all.filter(s=>s&&s.length>=3&&!/^[0-9a-fA-F]{16,}$/.test(s)))];
+const flags=[...new Set(clean.filter(s=>/^--[a-z][a-z0-9-]*$/.test(s)))].sort();
+console.log('=== CLI flags ('+flags.length+') ===');
+console.log(flags.join(' '));
+console.log();
+const dotted=[...new Set(clean.filter(s=>/^[a-z][A-Za-z0-9]*(\.[a-zA-Z][A-Za-z0-9]*)+$/.test(s)))].sort();
+console.log('=== dotted config keys ('+dotted.length+') ===');
+console.log(dotted.join(' '));
+console.log();
+const usage=clean.filter(s=>/usage|Usage|USAGE|commands?|Commands?|options|Options|\.command|subcommand|examples?/i.test(s)&&s.length<160).slice(0,40);
+console.log('=== usage-ish ('+usage.length+') ===');
+usage.forEach(s=>console.log('  '+s));
+console.log();
+const ondevice=clean.filter(s=>/on-device|local|offline|privacy|100%|upload|server|cloud/i.test(s)&&s.length>10&&s.length<120).slice(0,25);
+console.log('=== privacy / local processing claims ===');
+ondevice.forEach(s=>console.log('  '+s));

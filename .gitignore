@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# 临时产物
+*.tmp
+cli-work/
+frames/f_*.jpg
+
+# 二进制（本仓库不含 app 本体）
+*.app/
+*.dmg

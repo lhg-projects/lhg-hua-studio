@@ -1,0 +1,36 @@
+# lhg-hua-studio
+
+> HuaStudio（花录）1.8 逆向分析：8 MB 原生 SwiftUI 录屏剪辑工具的结构级还原。
+> 包含 189 个 Swift 类型骨架、自动缩放算法常数（450ms/1500ms）、完整 UI 结构、Agent 剪辑机制。
+
+## 核心结论
+
+- 技术栈：原生 SwiftUI 7.2.5 + ScreenCaptureKit + AVFoundation + CoreImage，非 Electron，无 ffmpeg
+- 自动缩放：start = click − 450ms，end = lastClick + 1500ms（误差 0.0，实测反推）
+- 默认参数：zoomLevel 1.6 / zoomSpeed 0.9 / motionBlur 0.08 / padding 0.105 / radius 20 / shadow 0
+- Agent 剪辑：不内置 AI，生成提示词让外部 agent 调 CLI 读写 project.json
+- 体积对比：8.1 MB vs Screen Studio 245 MB，功能覆盖约 80%
+
+## 文档
+
+- [HANDOFF.md](HANDOFF.md): 交接说明，含三条结论、五个坑、TODO 清单
+- [analysis/HuaStudio-RE.md](analysis/HuaStudio-RE.md): 逆向总报告
+- [analysis/HuaStudio-RUNTIME.md](analysis/HuaStudio-RUNTIME.md): 运行时解剖与算法反推
+- [analysis/HuaStudio-UI.md](analysis/HuaStudio-UI.md): 界面解剖与产品设计
+- [analysis/types.md](analysis/types.md): 189 个 Swift 类型骨架
+- [analysis/strings.md](analysis/strings.md): CLI 参数与配置项
+
+## 数据与工具
+
+- [data/swift-types.json](data/swift-types.json): 机器可读类型数据
+- tools/: 8 个可复现分析脚本（Mach-O 解析、Swift ABI、Vision OCR）
+- media/: 7 分 08 秒深度使用录像 + 关键帧
+
+## 使用方式
+
+有 HuaStudio 装着的话：
+
+    HS="/Applications/HuaStudio.app/Contents/MacOS/HuaStudio"
+    "$HS" cli              # 完整命令表
+    "$HS" cli describe     # 工程摘要
+    "$HS" cli idle <id>    # 剪辑建议
