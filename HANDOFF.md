@@ -73,6 +73,8 @@ AVCaptureSession → CVPixelBuffer → CoreImage → AVAssetWriter。
 影像：[media/session-2026-10-24-hua-studio-usage.mp4](media/session-2026-10-24-hua-studio-usage.mp4) —— 7 分 08 秒的深度使用录像（1104×720 @60fps）
 关键帧：[media/frames/](media/frames/) —— 编辑器全貌 / 美化面板 / 导出弹窗 / 剪辑前后对比
 
+> 注：77 MB 录像已超 GitHub 推荐的 50 MB（未触 100 MB 硬限，可正常推送）。**以后再往仓库加视频，请改用 Release 附件或 Git LFS**，否则克隆会越来越慢。
+
 ---
 
 ## 工具链
