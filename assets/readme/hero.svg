@@ -27,7 +27,7 @@
     <!-- zoom window -->
     <rect x="760" y="108" width="300" height="76" rx="14" fill="none" stroke="#E85D3D" stroke-width="3"/>
     <text x="790" y="158" font-size="32" font-weight="700" fill="#1F2328">× 1.6</text>
-    <text x="896" y="156" font-size="16" fill="#656D76">速度 0.9 · 模糊 0.08</text>
+    <text x="900" y="156" font-size="16" fill="#656D76">速度 0.9</text>
     <!-- timeline -->
     <line x1="704" y1="216" x2="1120" y2="216" stroke="#D0D7DE" stroke-width="3"/>
     <circle cx="800" cy="216" r="8" fill="#E85D3D"/>
