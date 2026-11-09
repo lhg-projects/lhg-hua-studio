@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="lhg-hua-studio：8 MB 原生 SwiftUI 工具，结构与算法全还原">
+</p>
+
 # lhg-hua-studio
 
 > **HuaStudio（花录）1.8 逆向分析**：8 MB 原生 SwiftUI 录屏剪辑工具的完整结构与算法还原。
@@ -5,11 +9,7 @@
 
 **接手请先读 [HANDOFF.md](HANDOFF.md)。** 5 分钟建立全景，包含结论、坑、TODO。
 
----
-
-## 这是什么
-
-HuaStudio 是 Mac App Store 上一款 8.1 MB 的录屏美化工具，功能和 Screen Studio 同类，但技术路线完全不同：**它是原生 SwiftUI，不是 Electron**。
+**这是什么**：HuaStudio 是 Mac App Store 上一款 8.1 MB 的录屏美化工具，功能和 Screen Studio 同类，但技术路线完全不同：**它是原生 SwiftUI，不是 Electron**。
 
 本仓库是它的逆向分析产物——不是反编译代码（编译型语言做不到），而是**结构级还原**：类型骨架、参数、算法、UI、产品设计。
 
@@ -21,16 +21,16 @@ HuaStudio 是 Mac App Store 上一款 8.1 MB 的录屏美化工具，功能和 S
 | 解析手段 | Mach-O 段解析 + Swift 5 ABI 元数据 + Vision OCR |
 | 产出 | 189 个类型（字段名 100%）、25 个配置项、5 份分析文档、7 分钟录像 |
 
----
+类型数口径：`data/swift-types.json` 共 206 个类型描述符，其中 **189 个带字段**（见 `analysis/types.md` 开头）。引用参数时带数值和出处，推断要标明是推断——详见 [AGENTS.md](AGENTS.md) 三档可信度。
 
 ## 三个可以直接用的结论
 
 **① 自动缩放的时间常数**
 
-~~~
+```
 缩放开始 = 第一次点击时刻 − 450 ms
 缩放结束 = 最后一次点击时刻 + 1500 ms
-~~~
+```
 
 误差 0.0ms，从真实录制数据反推。配套默认：倍率 1.6 / 速度 0.9 / 运动模糊 0.08 / 留白 10.5% / 圆角 20 / 阴影 0。
 
@@ -43,11 +43,9 @@ HuaStudio 是 Mac App Store 上一款 8.1 MB 的录屏美化工具，功能和 S
 app 生成一段结构化提示词 → 用户粘给任意 AI → AI 通过 CLI 读写 project.json → 编辑器热重载。
 **它没做 AI 功能，它做了「让 AI 能用的接口」。**
 
----
-
 ## 目录
 
-~~~
+```
 .
 ├── README.md               ← 你在这里
 ├── HANDOFF.md              ★ 交接说明（结论 / 坑 / TODO / 怎么继续）
@@ -62,21 +60,19 @@ app 生成一段结构化提示词 → 用户粘给任意 AI → AI 通过 CLI �
 │   └── strings.md              CLI 参数 / 配置项 / 文件格式 / API 痕迹
 │
 ├── data/
-│   ├── swift-types.json        机器可读类型数据
+│   ├── swift-types.json        机器可读类型数据（206 个描述符）
 │   └── cli-idle.json           CLI 输出示例（剪辑建议）
 │
 ├── tools/                      8 个可复现脚本（Node + Swift）
 │
 └── media/
-    ├── session-2026-10-24-hua-studio-usage.mp4   7:08 深度使用录像
+    ├── session-2026-10-24-hua-studio-usage.mp4   7:08 深度使用录像（77 MB）
     └── frames/                                    关键帧 + 剪辑前后对比
-~~~
-
----
+```
 
 ## 快速开始
 
-~~~bash
+```bash
 # 如果你有 HuaStudio 装着
 HS="/Applications/HuaStudio.app/Contents/MacOS/HuaStudio"
 "$HS" cli                    # 完整命令表
@@ -87,9 +83,9 @@ HS="/Applications/HuaStudio.app/Contents/MacOS/HuaStudio"
 node tools/macho.cjs
 node tools/swift-meta.cjs
 node tools/gen-types.cjs
-~~~
+```
 
----
+三个坑（[HANDOFF.md](HANDOFF.md) 有详述）：入口是 `cli`，不是 `--help`；`describe` / `idle` 输出的是**源毫秒**，改写要加 `--source`；产物落在沙盒容器，`--out` 会被忽略。
 
 ## 边界
 

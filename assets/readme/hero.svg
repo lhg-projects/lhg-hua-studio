@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="380" viewBox="0 0 1200 380"
+     role="img" aria-labelledby="title desc">
+  <title id="title">lhg-hua-studio — HuaStudio 1.8 逆向分析：8 MB 原生 SwiftUI 工具的结构与算法还原</title>
+  <desc id="desc">左侧是项目名与一句话价值；右侧是一个缩放取景框：时间轴上第一次点击前 450 毫秒开始放大、最后一次点击后 1500 毫秒结束，框内标着默认倍率 1.6。</desc>
+
+  <rect width="1200" height="380" rx="26" fill="#FAFAF7"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#E85D3D"/>
+
+  <!-- Title block -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <text x="56" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="18" letter-spacing="2" fill="#E85D3D">REVERSE-ENGINEERING · HUASTUDIO 1.8 · SWIFTUI</text>
+    <text x="56" y="146" font-size="56" font-weight="700" fill="#1F2328">lhg-hua-studio</text>
+    <text x="56" y="192" font-size="26" fill="#3D444D">8 MB 原生工具，结构与算法全还原。</text>
+    <text x="56" y="228" font-size="21" fill="#656D76">189 个类型骨架 · 自动缩放常数 · Agent 剪辑机制。</text>
+    <line x1="56" y1="256" x2="600" y2="256" stroke="#E3DDC9" stroke-width="2"/>
+    <text x="56" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="18" fill="#656D76">SwiftUI 7.2.5 · ScreenCaptureKit · AVFoundation</text>
+    <text x="56" y="324" font-size="18" fill="#3D444D">1/30 的体积，做到了 Screen Studio 80% 的能力</text>
+  </g>
+
+  <!-- Zoom lens motif: timeline with -450ms / +1500ms -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <rect x="680" y="52" width="464" height="276" rx="18" fill="#FFFFFF" stroke="#E3DDC9" stroke-width="2"/>
+    <text x="704" y="90" font-size="18" fill="#1F2328">自动缩放 · 实测常数</text>
+    <!-- zoom window -->
+    <rect x="760" y="108" width="300" height="76" rx="14" fill="none" stroke="#E85D3D" stroke-width="3"/>
+    <text x="790" y="158" font-size="32" font-weight="700" fill="#1F2328">× 1.6</text>
+    <text x="896" y="156" font-size="16" fill="#656D76">速度 0.9 · 模糊 0.08</text>
+    <!-- timeline -->
+    <line x1="704" y1="216" x2="1120" y2="216" stroke="#D0D7DE" stroke-width="3"/>
+    <circle cx="800" cy="216" r="8" fill="#E85D3D"/>
+    <circle cx="1020" cy="216" r="8" fill="#E85D3D"/>
+    <text x="768" y="244" font-size="16" fill="#656D76">首次点击</text>
+    <text x="980" y="244" font-size="16" fill="#656D76">最后点击</text>
+    <text x="704" y="282" font-size="18" fill="#1F2328">开始 = 点击 − 450 ms</text>
+    <text x="704" y="312" font-size="18" fill="#1F2328">结束 = 点击 + 1500 ms</text>
+    <text x="980" y="312" font-size="16" fill="#656D76">误差 0.0 ms</text>
+  </g>
+</svg>
